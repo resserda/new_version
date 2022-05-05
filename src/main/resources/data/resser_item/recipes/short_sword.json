@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "BSB",
+        " I "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:black_dye"
+        },
+        "S": {
+            "item": "resser_item:no_named_soul"
+        },
+        "I": {
+            "item": "minecraft:iron_sword"
+        }
+    },
+    "result":{
+        "item":"resser_item:short_sword"
+    }
+}
