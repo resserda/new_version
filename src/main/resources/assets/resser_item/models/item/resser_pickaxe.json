@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "resser_item:item/resser_pickaxe"
+    }
+}

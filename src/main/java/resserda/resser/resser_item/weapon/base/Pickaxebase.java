@@ -1,15 +1,44 @@
 package resserda.resser.resser_item.weapon.base;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.recipe.Ingredient;
 
-public class Pickaxebase extends PickaxeItem{
+public class Pickaxebase implements ToolMaterial{
 
-    public Pickaxebase(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
-        super(material, 1, -2.2f, new Item.Settings().group(ItemGroup.TOOLS));
+    public static final Pickaxebase INSTANCE= new Pickaxebase();
+
+    @Override
+    public int getDurability() {
         
+        return 500;
     }
+
+    @Override
+    public float getMiningSpeedMultiplier() {
+       
+        return 4.0F;
+    }
+
+    @Override
+    public float getAttackDamage() {
+        return 1.0F;
+    }
+
+    @Override
+    public int getMiningLevel() {
+        return 3;
+    }
+
+    @Override
+    public int getEnchantability() {
+        return 0;
+    }
+
+    @Override
+    public Ingredient getRepairIngredient() {
+        return Ingredient.ofItems(Items.IRON_PICKAXE);
+    }
+
     
 }

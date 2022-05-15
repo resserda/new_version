@@ -6,13 +6,17 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolItem;
+import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.Item.Settings;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import resserda.resser.resser_item.ResserItem;
 import resserda.resser.resser_item.item.NoNamedSoul;
+import resserda.resser.resser_item.item.ResserPickAxe;
 import resserda.resser.resser_item.weapon.ShortSword;
 import resserda.resser.resser_item.weapon.base.CustomToolMaterial;
 import resserda.resser.resser_item.weapon.base.Pickaxebase;
+
 
 public class ModItems {
 
@@ -20,12 +24,16 @@ public class ModItems {
     public static final ItemGroup MOD_GROUP = FabricItemGroupBuilder.build(new Identifier(ResserItem.MOD_ID, "general"), () -> new ItemStack(Items.APPLE));
     public static final Item NO_NAMED_SOUL = new NoNamedSoul(new Item.Settings().group(MOD_GROUP));
     public static final ToolItem SHORT_SWORD = new ShortSword(CustomToolMaterial.INSTANCE, 5, 1.0f, new Item.Settings().group(MOD_GROUP));
+    public static final ToolItem RESSER_PICKAXE = new ResserPickAxe(Pickaxebase.INSTANCE,1,-2.6f,new Item.Settings().group(MOD_GROUP));
+
+    public ModItems(ToolMaterial material, int i, float f, Settings settings) {
+    }
 
     public static void init() {
     //Items & etc...
 	Registry.register(Registry.ITEM, new Identifier(ResserItem.MOD_ID, "no_named_soul"), NO_NAMED_SOUL);
     Registry.register(Registry.ITEM, new Identifier(ResserItem.MOD_ID, "short_sword"),SHORT_SWORD);
-    Registry.register(Registry.ITEM, new Identifier(ResserItem.MOD_ID, "resser_pickaxe"), new Pickaxebase(CustomToolMaterial.INSTANCE, 1, -2.0f, new Item.Settings().group(MOD_GROUP)));
+    Registry.register(Registry.ITEM, new Identifier(ResserItem.MOD_ID, "resser_pickaxe"),RESSER_PICKAXE);
 	
     }
 
