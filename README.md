@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Resser Item Mod
+github:https://github.com/resserda/new_version
 
-## Setup
+Actions:https://github.com/resserda/new_version/actions
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is adding a weapon and etc.
