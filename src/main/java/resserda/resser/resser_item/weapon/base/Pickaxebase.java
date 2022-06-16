@@ -3,6 +3,7 @@ package resserda.resser.resser_item.weapon.base;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import resserda.resser.resser_item.init.ModItems;
 
 public class Pickaxebase implements ToolMaterial{
 
@@ -37,7 +38,7 @@ public class Pickaxebase implements ToolMaterial{
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.IRON_PICKAXE);
+        return Ingredient.ofItems(ModItems.SOUL_INGOT);
     }
 
     

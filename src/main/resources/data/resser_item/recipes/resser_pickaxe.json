@@ -1,25 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
-        "BSB",
+        "   ",
+        "ini",
         " I "
     ],
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "B": {
-            "item": "minecraft:black_dye"
-        },
-        "S": {
+        "n": {
             "item": "resser_item:soul_ingot"
         },
         "I": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:iron_pickaxe"
         }
     },
     "result":{
-        "item":"resser_item:short_sword"
+        "item":"resser_item:resser_pickaxe"
     }
 }

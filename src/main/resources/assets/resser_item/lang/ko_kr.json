@@ -2,6 +2,10 @@
     "itemGroup.resser_item.general": "래서의 아이템",
     "item.resser_item.no_named_soul": "이름 없는 영혼",
     "item.resser_item.short_sword":"숏 소드",
-    "item.resser_item.resser_pickaxe":"래서 곡괭이"
+    "item.resser_item.resser_pickaxe":"래서 곡괭이",
+    "item.resser_item.resser_helmet":"Resser Helmet",
+    "item.resser_item.resser_chestplate":"Resser Chestplate",
+    "item.resser_item.resser_leggings":"Resser Leggings",
+    "item.resser_item.resser_boots":"Resser Boots"
 
 }
