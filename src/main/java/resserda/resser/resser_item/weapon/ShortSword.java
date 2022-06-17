@@ -2,7 +2,7 @@ package resserda.resser.resser_item.weapon;
 
 
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.AirBlockItem;
+//import net.minecraft.item.AirBlockItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Hand;

@@ -1,12 +1,13 @@
 {
     "itemGroup.resser_item.general": "Resser Item",
-    "item.resser_item.no_named_ingot":"No Named Ingot",
+    "item.resser_item.soul_ingot":"Soul Ingot",
     "item.resser_item.no_named_soul": "No Named Soul",
     "item.resser_item.short_sword":"Short Sword",
     "item.resser_item.resser_pickaxe":"Resser PickAxe",
     "item.resser_item.resser_helmet":"Resser Helmet",
     "item.resser_item.resser_chestplate":"Resser Chestplate",
     "item.resser_item.resser_leggings":"Resser Leggings",
-    "item.resser_item.resser_boots":"Resser Boots"
+    "item.resser_item.resser_boots":"Resser Boots",
+    "block.resser_item.soul_ore":"Soul Ore"
 
 }

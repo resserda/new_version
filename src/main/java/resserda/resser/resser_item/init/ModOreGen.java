@@ -20,7 +20,7 @@ import resserda.resser.resser_item.ResserItem;
 public class ModOreGen {
 
     private static ConfiguredFeature<?, ?> ORE_SOUL = Feature.ORE
-    .configure(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.STONE), ModBlocks.SOUL_ORE.getDefaultState(), 9))
+    .configure(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.STONE), ModBlocks.SOUL_ORE.getDefaultState(), 7))
     .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(10, 0, 40)))
     .spreadHorizontally()
     .repeat(10);

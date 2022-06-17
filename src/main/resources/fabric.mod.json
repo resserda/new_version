@@ -13,7 +13,7 @@
     "sources": "https://github.com/resserda/new_version"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/resser_item/icon.png",
 
   "environment": "*",
